@@ -2,9 +2,8 @@ import time
 import pandas as pd
 from bs4 import BeautifulSoup
 from selenium import webdriver
-from selenium.webdriver.edge.options import Options
 import json
-# 1. Pegar conteúdo HTML a partir da URL
+# Pegar conteúdo HTML a partir da URL
 url = "https://www.nba.com/stats/players/traditional/?PerMode=Totals&sort=PLAYER_NAME&dir=1"
 top10ranking = {}
 
@@ -40,7 +39,6 @@ def buildrank(type):
     return df.to_dict('records')
 
 
-option = Options()
 driver = webdriver.Edge()
 
 driver.get(url)
@@ -51,8 +49,8 @@ for k in rankings:
 
 driver.quit()
 
-# 5. Converter e salvar em um arquivo JSON
+# Converter e salvar em um arquivo JSON
 js = json.dumps(top10ranking)
-fp =open('ranking.json','w')
+fp =open('rankingNBA.json','w')
 fp.write(js)
 fp.close()
