@@ -1,0 +1,212 @@
+{
+    "Passes": [
+        {
+            "Player": "Deshaun Watson",
+            "Pass Yds": 4823
+        },
+        {
+            "Player": "Patrick Mahomes",
+            "Pass Yds": 4740
+        },
+        {
+            "Player": "Tom Brady",
+            "Pass Yds": 4633
+        },
+        {
+            "Player": "Matt Ryan",
+            "Pass Yds": 4581
+        },
+        {
+            "Player": "Josh Allen",
+            "Pass Yds": 4544
+        },
+        {
+            "Player": "Justin Herbert",
+            "Pass Yds": 4336
+        },
+        {
+            "Player": "Aaron Rodgers",
+            "Pass Yds": 4299
+        },
+        {
+            "Player": "Kirk Cousins",
+            "Pass Yds": 4265
+        },
+        {
+            "Player": "Russell Wilson",
+            "Pass Yds": 4212
+        },
+        {
+            "Player": "Philip Rivers",
+            "Pass Yds": 4169
+        }
+    ],
+    "Tackles": [
+        {
+            "Player": "Avery Williamson",
+            "Comb": 170
+        },
+        {
+            "Player": "Zach Cunningham",
+            "Comb": 164
+        },
+        {
+            "Player": "Jaylon Smith",
+            "Comb": 154
+        },
+        {
+            "Player": "Blake Martinez",
+            "Comb": 151
+        },
+        {
+            "Player": "Joe Schobert",
+            "Comb": 141
+        },
+        {
+            "Player": "Devin White",
+            "Comb": 140
+        },
+        {
+            "Player": "Roquan Smith",
+            "Comb": 139
+        },
+        {
+            "Player": "Bobby Wagner",
+            "Comb": 138
+        },
+        {
+            "Player": "Neville Hewitt",
+            "Comb": 134
+        },
+        {
+            "Player": "Darius Leonard",
+            "Comb": 132
+        }
+    ],
+    "Corridas": [
+        {
+            "Player": "Derrick Henry",
+            "Rush Yds": 2027
+        },
+        {
+            "Player": "Dalvin Cook",
+            "Rush Yds": 1557
+        },
+        {
+            "Player": "Jonathan Taylor",
+            "Rush Yds": 1169
+        },
+        {
+            "Player": "Aaron Jones",
+            "Rush Yds": 1104
+        },
+        {
+            "Player": "James Robinson",
+            "Rush Yds": 1070
+        },
+        {
+            "Player": "David Montgomery",
+            "Rush Yds": 1070
+        },
+        {
+            "Player": "Nick Chubb",
+            "Rush Yds": 1067
+        },
+        {
+            "Player": "Josh Jacobs",
+            "Rush Yds": 1065
+        },
+        {
+            "Player": "Lamar Jackson",
+            "Rush Yds": 1005
+        },
+        {
+            "Player": "Melvin Gordon",
+            "Rush Yds": 986
+        }
+    ],
+    "Recepções": [
+        {
+            "Player": "Stefon Diggs",
+            "Rec": 127
+        },
+        {
+            "Player": "Travis Kelce",
+            "Rec": 105
+        },
+        {
+            "Player": "DeAndre Hopkins",
+            "Rec": 115
+        },
+        {
+            "Player": "Justin Jefferson",
+            "Rec": 88
+        },
+        {
+            "Player": "Calvin Ridley",
+            "Rec": 90
+        },
+        {
+            "Player": "Davante Adams",
+            "Rec": 115
+        },
+        {
+            "Player": "DK Metcalf",
+            "Rec": 83
+        },
+        {
+            "Player": "Tyreek Hill",
+            "Rec": 87
+        },
+        {
+            "Player": "Allen Robinson",
+            "Rec": 102
+        },
+        {
+            "Player": "Darren Waller",
+            "Rec": 107
+        }
+    ],
+    "Interceptações": [
+        {
+            "Player": "Xavien Howard",
+            "INT": 10
+        },
+        {
+            "Player": "J.C. Jackson",
+            "INT": 9
+        },
+        {
+            "Player": "Tyrann Mathieu",
+            "INT": 6
+        },
+        {
+            "Player": "Harrison Smith",
+            "INT": 5
+        },
+        {
+            "Player": "Justin Simmons",
+            "INT": 5
+        },
+        {
+            "Player": "Quandre Diggs",
+            "INT": 5
+        },
+        {
+            "Player": "Darious Williams",
+            "INT": 4
+        },
+        {
+            "Player": "Darnell Savage",
+            "INT": 4
+        },
+        {
+            "Player": "Marcus Peters",
+            "INT": 4
+        },
+        {
+            "Player": "Kenny Moore II",
+            "INT": 4
+        }
+    ]
+}
