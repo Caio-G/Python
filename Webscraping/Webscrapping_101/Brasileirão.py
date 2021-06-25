@@ -14,10 +14,16 @@ element = driver.find_element_by_xpath('/html/body/main/div[3]/div/section[1]/ul
 html_content = element.get_attribute('outerHTML')
 
 soup = BeautifulSoup(html_content,'html.parser')
-li = soup.find(name='section')
+li = soup.find('li')
+clube = li.find('div',class_="ranking__escudo").text
+Jogador = li.find('div',class_="ranking__nome").text
+pos = li.find('div',class_="ranking__posicao").text
+jogos = li.find_all('span',class_="ranking__value")[2].text
+#valor = li.find_all('span',class_="ranking__value")[3].text
 
-df= pd.read_html(str(li))
-print(df)
-#Estruturar
+#df= f"Time : {clube.strip()}\nJogador : {Jogador}\nPosição : {pos}\nJogos: {jogos}\nGols: {valor}"
+print(li)
+#Estruturarcls
+
 driver.quit()
 #Salvar
