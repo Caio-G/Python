@@ -2,33 +2,47 @@ import pandas as pd
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import json
-import time
 
-rankingstats = {}
+rankingstats = {
+        'Artilheiros':{
+            'xpath':'//*[@id="fittPageContainer"]/div[3]/div/div[1]/section/div/section/div/div[1]/section/div/div[2]/div/div[2]/table',
+            'dado':'Gols'        },
+        'Garçons':{
+            'xpath':'//*[@id="fittPageContainer"]/div[3]/div/div[1]/section/div/section/div/div[2]/section/div/div[2]/div/div[2]/table',
+            'dado':'Assistencias'
+        }
+    }
 finalrank = {}
 
 #Pegar o conteúdo
-url = 'https://interativos.globoesporte.globo.com/estatisticas/atletas/'
+url = 'https://www.espn.com.br/futebol/estatisticas/_/liga/BRA.1/vista/gols'
 #Parsear
 driver = webdriver.Edge()
 driver.get(url)
 def buildrank(x):
-    element = driver.find_element_by_xpath('/html/body/main/div[3]/div/section[1]/ul/li[1]')
+    xpath = rankingstats[x]['xpath']
+    dado = rankingstats[x]['dado']
+    element = driver.find_element_by_xpath(str(xpath))
     html_content = element.get_attribute('outerHTML')
 
     soup = BeautifulSoup(html_content,'html.parser')
-    li = soup.find('li')
-    clube = li.find('div',class_="ranking__escudo").text
-    Jogador = li.find('div',class_="ranking__nome").text
-    pos = li.find('div',class_="ranking__posicao").text
-    jogos = li.find_all('span',class_="ranking__value")[1].text
-    valor = li.find_all('span',class_="ranking__value")[2].text
+    tabela = soup.find('table')
 
-    df= f"Time : {clube.strip()}\nJogador : {Jogador}\nPosição : {pos}\nJogos: {jogos}\nGols: {valor}"
-    return df
+    pd_full = pd.read_html(str(tabela))[0].head(10)
+
+    pd_full.columns=['POS','Jogador','Clube','Pontos',dado]
+    pd_full = pd_full.fillna('-')
+    print(pd_full)
+
+    return pd_full.to_dict('records')
 
 for k in rankingstats:
     finalrank[k] = buildrank(k)
 
 driver.quit()
 #Salvar
+
+js = json.dumps(finalrank)
+fp = open('statsbras.json','w')
+fp.write(js)
+fp.close()

@@ -1,0 +1,146 @@
+{
+    "Artilheiros": [
+        {
+            "POS": 1,
+            "Jogador": "Gilberto",
+            "Clube": "Bahia",
+            "Pontos": 11,
+            "Gols": 7
+        },
+        {
+            "POS": 2,
+            "Jogador": "Matheus Peixoto",
+            "Clube": "Juventude",
+            "Pontos": 10,
+            "Gols": 6
+        },
+        {
+            "POS": 3,
+            "Jogador": "Ytalo",
+            "Clube": "Red Bull Bragantino",
+            "Pontos": 11,
+            "Gols": 5
+        },
+        {
+            "POS": "-",
+            "Jogador": "Edenilson",
+            "Clube": "Internacional",
+            "Pontos": 10,
+            "Gols": 5
+        },
+        {
+            "POS": 5,
+            "Jogador": "David",
+            "Clube": "Fortaleza",
+            "Pontos": 11,
+            "Gols": 4
+        },
+        {
+            "POS": "-",
+            "Jogador": "Yago Pikachu",
+            "Clube": "Fortaleza",
+            "Pontos": 11,
+            "Gols": 4
+        },
+        {
+            "POS": "-",
+            "Jogador": "Robson Fernandes",
+            "Clube": "Fortaleza",
+            "Pontos": 11,
+            "Gols": 4
+        },
+        {
+            "POS": "-",
+            "Jogador": "Marinho",
+            "Clube": "Santos",
+            "Pontos": 10,
+            "Gols": 4
+        },
+        {
+            "POS": "-",
+            "Jogador": "Breno",
+            "Clube": "Palmeiras",
+            "Pontos": 8,
+            "Gols": 4
+        },
+        {
+            "POS": "-",
+            "Jogador": "Jô",
+            "Clube": "Corinthians",
+            "Pontos": 8,
+            "Gols": 4
+        }
+    ],
+    "Garçons": [
+        {
+            "POS": 1,
+            "Jogador": "Gustavo Scarpa",
+            "Clube": "Palmeiras",
+            "Pontos": 11,
+            "Assistencias": 7
+        },
+        {
+            "POS": 2,
+            "Jogador": "Hulk",
+            "Clube": "Atlético-MG",
+            "Pontos": 11,
+            "Assistencias": 5
+        },
+        {
+            "POS": 3,
+            "Jogador": "Artur",
+            "Clube": "Red Bull Bragantino",
+            "Pontos": 11,
+            "Assistencias": 4
+        },
+        {
+            "POS": "-",
+            "Jogador": "Terans",
+            "Clube": "Athletico-PR",
+            "Pontos": 10,
+            "Assistencias": 4
+        },
+        {
+            "POS": "-",
+            "Jogador": "Marcinho",
+            "Clube": "Athletico-PR",
+            "Pontos": 9,
+            "Assistencias": 4
+        },
+        {
+            "POS": 6,
+            "Jogador": "Ytalo",
+            "Clube": "Red Bull Bragantino",
+            "Pontos": 11,
+            "Assistencias": 3
+        },
+        {
+            "POS": "-",
+            "Jogador": "Yago Pikachu",
+            "Clube": "Fortaleza",
+            "Pontos": 11,
+            "Assistencias": 3
+        },
+        {
+            "POS": "-",
+            "Jogador": "Vitor Naum",
+            "Clube": "Athletico-PR",
+            "Pontos": 10,
+            "Assistencias": 3
+        },
+        {
+            "POS": "-",
+            "Jogador": "Rossi",
+            "Clube": "Bahia",
+            "Pontos": 10,
+            "Assistencias": 3
+        },
+        {
+            "POS": "-",
+            "Jogador": "Lucas Evangelista",
+            "Clube": "Red Bull Bragantino",
+            "Pontos": 10,
+            "Assistencias": 3
+        }
+    ]
+}
