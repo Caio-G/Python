@@ -6,7 +6,7 @@ import json
 rankingstats = {
         'Artilheiros':{
             'xpath':'//*[@id="fittPageContainer"]/div[3]/div/div[1]/section/div/section/div/div[1]/section/div/div[2]/div/div[2]/table',
-            'dado':'Gols'        },
+            'dado':'Gols'},
         'Garçons':{
             'xpath':'//*[@id="fittPageContainer"]/div[3]/div/div[1]/section/div/section/div/div[2]/section/div/div[2]/div/div[2]/table',
             'dado':'Assistencias'
