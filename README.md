@@ -1,2 +1,2 @@
 # Python
- Projetos realizados durante o estudo de Python
+ Projetos realizados durante os estudos sobre Python
